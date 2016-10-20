@@ -1,4 +1,3 @@
-Oh hey!
-Nothing to see here yet.
+Oh hey! You found me!
 
-Check out the `proof-of-concept` branch
+Run index.html in your browser, friend!
