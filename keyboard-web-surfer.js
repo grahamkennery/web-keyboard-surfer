@@ -75,6 +75,7 @@
 	 */
 	Grid.prototype.hide = function() {
 		this._isVisible = false;
+		this._zeroSelect = false;
 		document.body.removeChild(this._el);
 	};
 
@@ -150,6 +151,8 @@
 			var left = (this._el.offsetLeft + segment.offsetLeft) + segment.clientWidth / 2;
 			
 			this.hide();
+
+			this._zeroSelect = false;
 
 			simulateClick(left, top);
 		}
